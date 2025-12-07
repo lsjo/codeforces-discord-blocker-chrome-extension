@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Codeforces Discord Blocker",
+    "version": "1.0",
+    "description": "a simple extension that blocks discord until you've solved a codeforces problem",
+
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": ["https://discord.com/*"]
+        }
+    ]
+}
